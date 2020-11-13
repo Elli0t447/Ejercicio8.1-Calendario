@@ -1,0 +1,66 @@
+body
+{
+    font-family: sans-serif;
+    background-color: #95E1FF;
+}
+.calendario-tipo
+{
+    border: 1px solid black;
+    width: 900px;
+    margin-top: 10px;
+    background-color: #FFFFE0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+table
+{
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-collapse: collapse;
+    width: 350px;
+}
+
+.primer
+{
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.segundo
+{
+    font-weight: bold;
+    text-align: right;
+}
+.tercero
+{
+    text-align: left;
+    font-family: Georgia;
+    letter-spacing: 10px;
+}
+
+.enero-2015 td
+{
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.febrero-2015 td
+{
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    text-align: right;
+    font-size: 1.5em;
+}
+.marzo-2015
+{
+    border: 1px solid black;
+    height: 300px;
+}
+.marzo-2015 td {
+    border: 1px solid black;
+}
+.marzo-2015 th {
+    border: 1px solid black;
+}
